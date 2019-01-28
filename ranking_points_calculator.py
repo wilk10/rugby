@@ -42,7 +42,10 @@ class RankingPoints:
         away_row = numpy.array(reversed_home_row) * -1
         self.df.loc[self.home_name, :] = home_row
         self.df.loc[self.away_name, :] = away_row
-        print(self.df)
+        print(f"points at stake:\n{self.df}")
+        self.df.loc[self.home_name, :] = numpy.array(home_row) + self.home_points
+        self.df.loc[self.away_name, :] = numpy.array(away_row) + self.away_points
+        print(f"\nfinal ranking points:\n{self.df}")
 
 
 def parse_arguments():
