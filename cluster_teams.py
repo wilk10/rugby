@@ -11,7 +11,7 @@ class Clusterer:
 
     def __init__(self):
         self.root = pathlib.Path.cwd()
-        self.filepath = self.root / "serie_a.csv"
+        self.filepath = self.root / "serie_a_2019.csv"
         self.data = self.load_data()
         self.groups = ["A", "B", "C"]
         kmeans = KMeans(n_clusters=len(self.groups), random_state=0).fit(self.data)
@@ -74,7 +74,8 @@ class Clusterer:
                 break
 
     def correct_groups(self):
-        moved_teams = []
+        min_sum_metric = len(self.data) * 1000
+        latest_move = False
         while True:
             for group in self.groups:
                 group_df = self.data.loc[self.data["proposed_group"] == group]
@@ -91,15 +92,17 @@ class Clusterer:
                 metric = distance_proposed_group - distance_closest_group
                 self.data = self.data.assign(metric=metric)
                 furthest_team = self.data["metric"].idxmax()
-                if furthest_team not in moved_teams:
+                if metric.sum() >= min_sum_metric and not latest_move:
+                    latest_move = True
+                elif metric.sum() < min_sum_metric or latest_move:
                     old_group = self.data.loc[furthest_team, 'proposed_group']
                     new_group = self.data.loc[furthest_team, 'closest_group']
                     print(f"\nmoving {furthest_team} from {old_group} to {new_group} ---!")
                     self.data.loc[furthest_team, 'proposed_group'] = new_group
-                    moved_teams.append(furthest_team)
                     self.adjust_group_sizes([furthest_team])
-                else:
-                    break
+                    min_sum_metric = metric.sum()
+                    if latest_move:
+                        break
             else:
                 break
 
@@ -110,11 +113,14 @@ class Clusterer:
             for team in group_df.index.values:
                 print(team)
 
-    def plot_results(self):
+    def plot_results(self, add_names=False):
         colour_by_group = {"A": "red", "B": "blue", "C": "green"}
         colours = [colour_by_group[group] for group in self.data["proposed_group"]]
-        plt.scatter(self.data["Y"], self.data["X"], c=colours)
-        plt.axis(aspect='equal')
+        fig, ax = plt.subplots()
+        ax.scatter(self.data["Y"], self.data["X"], c=colours)
+        if add_names:
+            for i, name in enumerate(self.data.index.values):
+                ax.annotate(name, (self.data["Y"][i], self.data["X"][i]))
         plt.show()
 
     def run(self):
