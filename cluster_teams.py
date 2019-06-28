@@ -7,19 +7,26 @@ from scipy.spatial import distance
 
 
 class Clusterer:
-    TARGET_GROUP_SIZE = 10
+    N_GROUPS = 4
+    FILENAME = "serie_b_2020.csv"
+    ADD_NAMES = True
+    BASE_GROUPS = ["A", "B", "C", "D"]
+    COLOUR_BY_GROUP = {"A": "red", "B": "blue", "C": "green", "D": "yellow"}
 
     def __init__(self):
         self.root = pathlib.Path.cwd()
-        self.filepath = self.root / "serie_a_2019.csv"
+        self.filepath = self.root / self.FILENAME
         self.data = self.load_data()
-        self.groups = ["A", "B", "C"]
+        self.groups = self.BASE_GROUPS[:self.N_GROUPS]
+        self.target_group_size = len(self.data) // self.N_GROUPS
+        assert len(self.data) % self.N_GROUPS == 0
+        self.distance_columns = [f"distance_{group}" for group in self.groups]
         kmeans = KMeans(n_clusters=len(self.groups), random_state=0).fit(self.data)
         self.data["initial_label"] = kmeans.labels_
         self.data["proposed_group"] = np.nan
 
     def load_data(self):
-        loaded_data = pandas.read_csv(self.filepath)
+        loaded_data = pandas.read_csv(self.filepath, header=0)
         columns = ["X", "Y"]
         data = loaded_data[columns]
         data.index = loaded_data.squadra
@@ -40,11 +47,14 @@ class Clusterer:
         df = df.assign(distance=series.values)
         min_distance = df["distance"].min()
         closest_team_df = df.loc[df["distance"] == min_distance]
+        if len(closest_team_df) != 1:
+            import pdb
+            pdb.set_trace()
         assert len(closest_team_df) == 1
         return closest_team_df.index.values[0]
 
     def add_closest_group(self):
-        closest_column = self.data.loc[:, ["distance_A", "distance_B", "distance_C"]].idxmin(axis=1)
+        closest_column = self.data.loc[:, self.distance_columns].idxmin(axis=1)
         closest_group = np.array([closest[-1] for closest in closest_column.values])
         self.data = self.data.assign(closest_group=closest_group)
 
@@ -113,18 +123,17 @@ class Clusterer:
             for team in group_df.index.values:
                 print(team)
 
-    def plot_results(self, add_names=False):
-        colour_by_group = {"A": "red", "B": "blue", "C": "green"}
-        colours = [colour_by_group[group] for group in self.data["proposed_group"]]
+    def plot_results(self):
+        colours = [self.COLOUR_BY_GROUP[group] for group in self.data["proposed_group"]]
         fig, ax = plt.subplots()
         ax.scatter(self.data["Y"], self.data["X"], c=colours)
-        if add_names:
+        if self.ADD_NAMES:
             for i, name in enumerate(self.data.index.values):
                 ax.annotate(name, (self.data["Y"][i], self.data["X"][i]))
         plt.show()
 
     def run(self):
-        for i in range(self.TARGET_GROUP_SIZE):
+        for i in range(self.target_group_size):
             for label, group in enumerate(self.groups):
                 unassigned_mask = self.data["proposed_group"].isnull()
                 df = self.data[unassigned_mask]
