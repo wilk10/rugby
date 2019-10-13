@@ -1,0 +1,143 @@
+giocatore,ruolo,numero,squadra,eta,presenze nazionale fino 18-19,presenze nazionale 19-20,presenze inizio club,presenze panchina club,rank presenze,convocato?,massime presenze nazionale attese,rank talento,rank talento ultimo match,rank talento inizio stagione,rank talento cambiamento da ultimo match,rank talento cambiamento da inizio stagione
+riccioni,PR,1,benetton,21,0,7,,,1,Y,90,4,4,55,,51
+ferrari,PR,1,benetton,25,22,7,,,2,Y,72,13,14,14,1,1
+lovotti,PR,1,zebre,30,34,6,,,10,Y,43,35,35,36,,1
+zani,PR,1,benetton,30,7,6,,,11,Y,16,51,52,51,1,
+quaglio,PR,1,benetton,28,9,5,,,20,Y,27,46,46,45,,-1
+pasquali,PR,1,benetton,25,18,3,,,28,Y,64,18,17,16,-1,-2
+mancini parri,PR,1,benetton/petrarca,21,0,0,3,,38,,0,56,56,55,,-1
+rimpelli,PR,1,zebre,22,0,0,2,1,45,,0,56,56,55,,-1
+appiah,PR,1,benetton,25,0,0,2,,51,,0,56,56,55,,-1
+traore,PR,1,benetton,25,10,0,1,2,54,,53,27,28,24,1,-3
+fischetti,PR,1,zebre,21,0,0,1,,58,Y,0,56,56,55,,-1
+alongi,PR,1,benetton/mogliano,19,0,0,,3,63,,0,56,56,55,,-1
+buonfiglio,PR,1,zebre,24,0,0,,2,69,,0,56,56,55,,-1
+zilocchi,PR,1,zebre,22,2,0,,1,73,Y,75,10,9,7,-1,-3
+ceccarelli,PR,1,edinburgh,27,11,0,x,x,81,,34,42,42,39,,-3
+tenga,PR,1,zebre,29,0,0,,,84,,0,56,56,55,,-1
+nocera,PR,1,fiamme oro,20,0,0,2,,93,,0,56,56,55,,-1
+franceschetto,PR,1,petrarca,20,0,0,1,1,102,,0,56,56,55,,-1
+mariottini,PR,1,fiamme oro,20,0,0,,1,120,,0,56,56,55,,-1
+michelini,PR,1,calvisano,19,0,0,,,131,y,0,56,56,55,,-1
+brugnara,PR,1,calvisano,25,0,0,,,153,,0,56,56,55,,-1
+di stefano,PR,1,fiamme oro,30,0,0,,,154,,0,56,56,55,,-1
+bigi,HK,2,zebre,28,19,5,,,18,Y,37,39,41,41,2,2
+fabiani,HK,2,zebre,29,7,3,,,30,Y,13,53,53,51,,-2
+manfredi,HK,2,zebre,22,0,0,3,,39,,0,56,56,55,,-1
+baravalle*,HK,2,benetton,28,0,0,2,1,49,,0,56,56,55,,-1
+makelara,HK,2,benetton,23,0,0,1,2,53,,0,56,56,55,,-1
+ceciliani,HK,2,zebre,22,0,0,,3,65,,0,56,56,55,,-1
+borean,HK,1,benetton/petrarca,22,0,0,,1,71,,0,56,56,55,,-1
+gega,HK,2,benetton,29,15,0,,,83,,18,49,49,47,,-2
+ghiraldini,HK,2,-,34,104,0,x,x,87,Y,107,3,3,3,,
+luus,HK,2,valorugby,23,0,0,2,,97,,0,56,56,55,,-1
+rollero,HK,2,lyons piacenza,22,0,0,1,,112,,0,56,56,55,,-1
+ferraro,HK,2,mogliano,23,0,0,1,,114,,0,56,56,55,,-1
+taddia,HK,2,fiamme oro,20,0,0,,1,123,,0,56,56,55,,-1
+marinello,HK,2,petrarca,19,0,0,,,129,,0,56,56,55,,-1
+bonanni,HK,2,mogliano,20,0,0,,,134,,0,56,56,55,,-1
+luccardi,HK,2,calvisano,21,0,0,,,144,,0,56,56,55,,-1
+nicotera,HK,2,rovigo,23,0,0,,,151,,0,56,56,55,,-1
+ruzza,SR,4,benetton,25,12,6,,,6,Y,61,20,20,23,,3
+budd,SR,4,benetton,33,20,6,,,13,Y,29,45,45,44,,-1
+zanni,SR,4,benetton,35,111,6,,,14,Y,120,2,2,2,,
+sisi,SR,4,zebre,26,5,4,,,24,Y,42,36,36,34,,-2
+cannone n.,SR,4,benetton/petrarca,21,0,0,2,1,44,,0,56,56,55,,-1
+biagi,SR,4,zebre,34,23,0,1,2,55,,26,47,46,43,-1,-4
+fuser,SR,4,benetton,28,33,0,1,1,57,,46,33,33,30,,-3
+ortis,SR,4,zebre,22,0,0,,1,72,,0,56,56,55,,-1
+masselli,SR,4,zebre,22,0,0,,,76,,0,56,56,55,,-1
+krumov,SR,4,zebre,23,0,0,,,77,,0,56,56,55,,-1
+canali,SR,4,rovigo,21,0,0,1,,106,,0,56,56,55,,-1
+stoian,SR,4,fiamme oro,19,0,0,,2,117,,0,56,56,55,,-1
+favretto,SR,4,mogliano,17,0,0,,1,118,yy,0,56,56,55,,-1
+butturini,SR,4,petrarca,20,0,0,,1,119,,0,56,56,55,,-1
+parolo,SR,4,rovigo,20,0,0,,1,121,,0,56,56,55,,-1
+negri,F8,6,benetton,25,16,6,,,5,Y,65,16,17,18,1,2
+steyn,F8,6,benetton,27,30,6,,,8,Y,59,21,21,24,,3
+polledri,F8,6,gloucester,23,8,5,x,x,15,Y,76,9,9,10,,1
+mbanda,F8,6,zebre,26,16,4,,,22,Y,53,27,28,28,1,1
+parisse,F8,6,toulon,36,138,4,x,x,27,Y,145,1,1,1,,
+tuivaiti,F8,6,zebre,31,3,2,,,31,,8,55,55,54,,-1
+licata,F8,6,zebre,22,7,1,3,,32,,81,6,6,6,,
+lazzaroni,F8,6,benetton,24,3,1,3,,33,,57,22,23,21,1,-1
+giammarioli,F8,6,zebre,24,3,1,,,36,,57,22,23,21,1,-1
+bianchi,F8,6,zebre/fiamme oro,21,0,0,3,,37,,0,56,56,55,,-1
+meyer,F8,6,zebre,26,4,0,3,,42,,37,39,39,36,,-3
+pettinelli,F8,6,benetton,23,0,0,2,1,47,,0,56,56,55,,-1
+barbini,F8,6,benetton,28,3,0,1,,61,,16,51,51,49,,-2
+manni,F8,6,benetton/petrarca,21,0,0,,2,67,,0,56,56,55,,-1
+lamaro,F8,6,benetton,21,0,0,,,74,,0,56,56,55,,-1
+van schalkwyk,F8,6,-,34,15,0,x,x,88,,18,49,49,47,,-2
+ruggeri,F8,6,rovigo,20,0,0,2,,94,,0,56,56,55,,-1
+chianucci,F8,6,fiamme oro,20,0,0,1,1,100,,0,56,56,55,,-1
+mordacci,F8,6,valorugby,21,0,0,1,,109,,0,56,56,55,,-1
+faccenna,F8,6,fiamme oro,19,0,0,,,127,(y),0,56,56,55,,-1
+goldin,F8,6,petrarca,19,0,0,,,128,,0,56,56,55,,-1
+finotto,F8,6,mogliano,20,0,0,,,136,,0,56,56,55,,-1
+koffi,F8,6,calvisano,20,0,0,,,137,,0,56,56,55,,-1
+casolari,F8,6,calvisano,22,0,0,,,149,,0,56,56,55,,-1
+braley,SH,9,gloucester,25,0,5,x,x,17,Y,48,30,31,55,1,25
+palazzani,SH,9,zebre,28,31,5,,,19,Y,49,29,30,31,1,2
+tebaldi,SH,9,benetton,32,32,4,,,26,Y,39,38,38,38,,
+petrozzi,SH,9,benetton/san dona,23,0,0,3,,40,,0,56,56,55,,-1
+casilio,SH,9,zebre/calvisano,21,0,0,,3,64,,0,56,56,55,,-1
+trussardi,SH,9,benetton,22,0,0,,3,66,,0,56,56,55,,-1
+violi,SH,9,zebre,26,15,0,,,79,,48,30,21,19,-9,-11
+gori,SH,9,colomiers,29,69,0,x,x,86,,72,13,13,11,,-2
+fusco,SH,9,fiamme oro,19,0,0,1,1,98,,0,56,56,55,,-1
+citton,SH,9,rovigo,20,0,0,1,1,101,,0,56,56,55,,-1
+piva,SH,9,rovigo,20,0,0,1,,105,,0,56,56,55,,-1
+crosato,SH,9,mogliano,21,0,0,1,,107,,0,56,56,55,,-1
+marinaro,SH,9,fiamme oro,26,0,0,1,,115,,0,56,56,55,,-1
+visentin,SH,9,rovigo,18,0,0,,,125,(y),0,56,56,55,,-1
+canna,FH,10,zebre,27,32,7,,,3,Y,62,19,19,14,,-5
+allan,FH,10,benetton,26,48,6,,,7,Y,87,5,5,5,,
+mckinley,FH,10,benetton,29,8,1,,3,35,,12,54,54,50,,-4
+mantelli,FH,10,zebre/colorno,22,0,0,,2,68,,0,56,56,55,,-1
+rizzi,FH,10,benetton,21,0,0,,1,70,,0,56,56,55,,-1
+bertaccini,FH,10,valorugby,18,0,0,2,,89,y,0,56,56,55,,-1
+garbisi,FH,10,petrarca,19,0,0,2,,90,y,0,56,56,55,,-1
+di marco,FH,10,fiamme oro,21,0,0,1,,108,,0,56,56,55,,-1
+azzolini,FH,10,fiamme oro,23,0,0,1,,113,,0,56,56,55,,-1
+campagnaro,CE,12,harlequins,26,42,4,x,x,21,Y,79,7,7,7,,
+morisi,CE,12,benetton,28,25,4,,,25,Y,42,36,36,34,,-2
+bisegni,CE,12,zebre,27,11,3,,,29,Y,37,39,39,39,,
+lucchin,CE,12,zebre,24,0,0,3,,41,,0,56,56,55,,-1
+sgarbi,CE,12,benetton,32,29,0,3,,43,,32,43,43,41,,-2
+brex,CE,12,benetton,27,0,0,1,1,56,,0,56,56,55,,-1
+vaccari,CE,12,zebre/fiamme oro,21,0,0,1,,59,,0,56,56,55,,-1
+mori,CE,12,zebre/calvisano,19,0,0,,3,62,,0,56,56,55,,-1
+zanon,CE,12,benetton,22,1,0,,,75,,74,12,11,4,-1,-8
+boni,CE,12,zebre,26,11,0,,,80,,44,34,34,31,,-3
+castello,CE,12,zebre,28,18,0,,,82,,31,44,44,33,,-11
+modena f.,CE,12,rovigo,19,0,0,1,1,99,,0,56,56,55,,-1
+moscardi,CE,12,rovigo,19,0,0,,2,116,y,0,56,56,55,,-1
+scagnolari,CE,12,mogliano,20,0,0,,1,122,,0,56,56,55,,-1
+marzocchi,CE,12,valorugby,19,0,0,,,130,,0,56,56,55,,-1
+mazza,CE,12,calvisano,20,0,0,,,138,,0,56,56,55,,-1
+chibalie,CE,12,colorno,21,0,0,,,142,,0,56,56,55,,-1
+forcucci,CE,12,fiamme oro,21,0,0,,,143,,0,56,56,55,,-1
+minozzi,WI / FB,14,london wasps,23,10,6,x,x,4,Y,79,7,7,9,,2
+benvenuti,WI / FB,14,benetton,28,56,6,,,9,Y,75,10,11,13,1,3
+hayward,WI / FB,14,benetton,32,17,6,,,12,Y,26,47,48,46,1,-1
+bellini,WI / FB,14,zebre,25,17,5,,,16,Y,65,16,16,17,,1
+padovani,WI / FB,14,zebre,26,20,4,,,23,Y,57,22,23,24,1,2
+esposito,WI / FB,14,benetton,26,20,1,1,,34,,54,26,27,24,1,-2
+bruno,WI / FB,14,zebre,23,0,0,2,1,46,,0,56,56,55,,-1
+sperandio,WI / FB,14,benetton,23,7,0,2,1,48,,70,15,15,11,,-4
+biondelli,WI / FB,14,zebre,21,0,0,2,,50,,0,56,56,55,,-1
+sarto,WI / FB,14,benetton,27,34,0,2,,52,,57,22,23,20,1,-2
+cioffi,WI / FB,14,zebre/rovigo,22,0,0,1,,60,,0,56,56,55,,-1
+di giulio,WI / FB,14,zebre,25,0,0,,,78,,0,56,56,55,,-1
+venditti,WI / FB,14,zebre,29,44,0,,,85,,47,32,31,29,-1,-3
+mba,WI / FB,14,fiamme oro,19,0,0,2,,91,y,0,56,56,55,,-1
+de masi,WI / FB,14,petrarca,20,0,0,2,,92,,0,56,56,55,,-1
+coppo,WI / FB,14,petrarca,21,0,0,2,,95,,0,56,56,55,,-1
+d'onofrio g.,WI / FB,14,fiamme oro,21,0,0,2,,96,,0,56,56,55,,-1
+mastandrea,WI / FB,14,rovigo,19,0,0,1,,103,(y),0,56,56,55,,-1
+da re,WI / FB,14,mogliano,20,0,0,1,,104,,0,56,56,55,,-1
+bronzini a.,WI / FB,14,san dona,22,0,0,1,,110,,0,56,56,55,,-1
+peruzzo,WI / FB,14,calvisano,19,0,0,,,132,,0,56,56,55,,-1
+trulla,WI / FB,14,calvisano,19,0,0,,,133,y,0,56,56,55,,-1
+abanga,WI / FB,14,mogliano,21,0,0,,,139,,0,56,56,55,,-1

@@ -37,7 +37,7 @@ class RankingPoints:
         home_row.large_win = home_row.narrow_win * 1.5
         home_row.large_loss = home_row.narrow_loss * 1.5
         if self.world_cup:
-            home_row = numpy.array(home_row) * 2
+            home_row *= 2
         reversed_home_row = home_row.iloc[::-1]
         away_row = numpy.array(reversed_home_row) * -1
         self.df.loc[self.home_name, :] = home_row
